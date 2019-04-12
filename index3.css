@@ -1,0 +1,80 @@
+body{
+    color: #FFFFFF;
+    margin: 0;
+    background-image: url("bilder2/geen2.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.Navlink{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5%;
+    font-family: 'Fugaz One', cursive;
+    
+}
+.grid-container {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 15% 50% auto auto auto 15%;
+    background: rgba(0,0,0,0.5);
+}
+  .grid-item {
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 120%;
+    
+}
+.grid-item1{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 200%;
+}
+#bigimage{
+   text-align: center;
+   font-family: 'Amatic SC', cursive;
+}
+#logo{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 450px;
+    width: 450px;
+}
+#h1h{
+    font-size: 300%;
+    text-shadow: 0 3px 7px #030303;
+    color: #ffffff;
+}
+#kontoknapp{
+    background: url("bilder2/geen2.jpg") no-repeat scroll 0 0 transparent; 
+  border: none;
+  color: white;
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  border-radius: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 5%;
+  margin-top: 3%;
+  font-family: 'Amatic SC', cursive;
+}
+  #footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+#footert{
+  margin: 0;
+  padding: 2%;
+}
+
