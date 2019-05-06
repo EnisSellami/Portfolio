@@ -1,5 +1,5 @@
-function fucku() {
-    document.getElementById("h1h").innerHTML = "Fuck You";
+function hej() {
+    document.getElementById("h1h").innerHTML = "hej";
    }
    /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
